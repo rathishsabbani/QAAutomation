@@ -8,8 +8,8 @@ public class RemoveDuplicates
 	public static void main(String[] args) 
 	{
 		
-		String r = "Rathish Sabbani";
- // 		r = r.replaceAll("\\s", "");
+  		String r = "Rathish Sabbani";
+  		r = r.replaceAll("\\s", "");
 		Scanner sc1 = new Scanner(System.in);
 
 		System.out.println("Enter the character");
@@ -62,7 +62,7 @@ public class RemoveDuplicates
 //		String s6="Something";
 //		int a=Integer.parseInt(s6);  
 //		System.out.println(a);
-//
+
 		}
 	
 		}

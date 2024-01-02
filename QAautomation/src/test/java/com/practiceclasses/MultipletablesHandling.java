@@ -14,9 +14,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MultipletablesHandling {
 	
+	
 	@Test
 
 	public void Multiple() {
+		
 		
 		WebDriverManager.chromiumdriver().setup();
 		WebDriver driver = new  ChromeDriver();
@@ -32,12 +34,16 @@ public class MultipletablesHandling {
 
 		 WebElement s = driver.findElement(By.xpath("//option[text()='Asia']"));
 		 s.click();
-		
-		
-		
-		
 		 
+		 WebElement ww = driver.findElement(By.xpath("//table[@class='mtbl']//tr//th[text()='Country Names']"));
+		 
+		 jse.executeScript("arguments[0].scrollIntoView();",ww );
+		 
+		 WebElement qq= driver.findElement(By.xpath("//td[text()='India']//following-sibling::td//input[@type='checkbox']"));
+		 
+		qq.click();
 		
+
 
 	}
 

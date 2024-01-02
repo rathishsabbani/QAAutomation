@@ -15,10 +15,11 @@ public class PrimeNumbers {
 //		int num[] = {17,19,25,68,101};
 //		
 //		int sample =0;
+		
 //		for (int i = 0; i <=num.length-1; i++) 
 //		{
 //			int count = 0;
-//			for (int j = 1; j <= num[i]; j++)
+//			for (int j = 1; j<= num[i]; j++)
 //
 //			{
 //				if (num[i]%j == 0)

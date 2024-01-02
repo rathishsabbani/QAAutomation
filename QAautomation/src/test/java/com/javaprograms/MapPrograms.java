@@ -4,7 +4,7 @@ public class MapPrograms {
 
 	public static void  main(String args[])
 	{
-		String s1= "qwerty ball ball bat";
+		String s1= "qwerty ball bowler bat";
 		String[] s= s1.split(" ");
 		String s2 = " ";
 		
