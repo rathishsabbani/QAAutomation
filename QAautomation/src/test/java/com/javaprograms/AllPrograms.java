@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class AllPrograms {
 
-	public static void main(String[] args) {
+//	public static void main(String[] args) {
 		
 
 
@@ -31,7 +31,7 @@ public class AllPrograms {
 //
 //		}
 //		System.out.println("reverse of number: " + rev);
-	}
+//	}
 			
 //		@Test
 //		
@@ -118,7 +118,53 @@ public void Occurancewords()
 	}
 	}
 }
+	@Test
+	
+	public void Reversestring()
+	{
+	 
+		String s= "qwerty";
+		int l = s.length();
+		String rev = " ";
+		for(int i=s.length()-1;i>=0;i--)
+		{
+			rev=rev+s.charAt(i);
+			
+		}
+		System.out.println(rev);
+		
+	}
+	
+	
+	@Test
+	
+	public void Reversenum()
+	{
+		int num = 1234,rev=0,rem;
+		while(num>0)
+		{
+			rem=num%10;
+			num=num/10;
+			rev=(rev*10)+rem;
+			
+		}
+		System.out.println(rev);
+		
+	}
+	
+	
+	@Test
+	
+	public void Occurenceofwords()
+	{
+		
+	}
+	
+	
+	
+
 }
+
 		
 
 

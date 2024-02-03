@@ -6,7 +6,7 @@ public class LongestWordProgram {
 
 	public static void main(String[] args) {
 		
-		String s="This is are practice programes";
+		String s="This is a practice programes";
 		
 		String[] a= s.split(" ");
 		

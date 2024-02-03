@@ -18,24 +18,24 @@ public class Indexmethod {
 
 		System.out.println("Enter the character");
 
-		char u = sc1.next().charAt(0);
+	   char u = sc1.next().charAt(0);
 
-		for (int i = 0; i < ch.length; i++)
+		for (int j = 0; j < ch.length; j++)
 
 		{
 
 			int counting = 1;
 
 
-         if(aut.charAt(i)==u)
+         if(aut.charAt(j)==u)
          {
         	 counting++;
-        	 System.out.println("postion is"+i);
-        	//  System.out.println("Count is"+ counting);
+        	 System.out.println("postion is"+j);
+        	//System.out.println("Count is"+ counting);
          }
 
 		
-		System.out.println("Number of times this '"+ u +"' character is repeated in string '"+ i +" " + counting );
+		System.out.println("Number of times this '"+ u +"' character is repeated in string '"+ j +" " + counting );
 		}
 	}
 

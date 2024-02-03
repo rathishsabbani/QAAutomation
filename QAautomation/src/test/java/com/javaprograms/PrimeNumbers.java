@@ -122,3 +122,6 @@ public class PrimeNumbers {
 	}
 
 }
+
+
+//100279424    806+244+463 G4JAWDWWMYWUMKKW
