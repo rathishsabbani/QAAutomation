@@ -32,7 +32,7 @@ public class Multipicationoftwonumbers {
 		
 		int s= 13;
 		int temp =0;
-		 System.out.println("Multiplied by given numbers :");
+		// System.out.println("Multiplied by given numbers :");
 		 int s1=5;
 		 {
 			 for(int i=1;i<=s;i++)

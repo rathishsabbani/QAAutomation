@@ -15,7 +15,7 @@ public class Abhibusmain {
        WebDriver driver = new ChromeDriver();
        driver.manage().window().maximize();
        
-       driver.get("https://www.abhibus.com/");
+       driver.get("www.abhibus.com");
        TimeUnit.SECONDS.sleep(2);
        
        Abhibuspom ap = new Abhibuspom(driver);

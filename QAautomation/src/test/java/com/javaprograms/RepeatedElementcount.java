@@ -25,7 +25,8 @@ public class RepeatedElementcount {
 	            }
 	         }
 	        
-	         if (count > max_count){
+	         if (count > max_count)
+	         {
 	            max_count = count;
 	            maxfreq = ch[i];
 	         }

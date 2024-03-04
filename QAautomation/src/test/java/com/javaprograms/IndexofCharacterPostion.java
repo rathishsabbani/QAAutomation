@@ -22,7 +22,10 @@ public class IndexofCharacterPostion {
 		        }
 		         
 		        System.out.println("Index of "+b+" : "+index);
+		        
 		 /* for integer
+		  * 
+		  * 
 		    int[] arr = {13, 74, 63, 25, 93}; 
         int element = 25;
         int index = -1;

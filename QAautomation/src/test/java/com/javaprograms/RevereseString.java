@@ -26,13 +26,7 @@ public class RevereseString {
 			System.out.print(arr[i]+" ");
 			
 		}
-		
-		
-		
-		
-		
-		
-		
+	 	
 		
 	}
 

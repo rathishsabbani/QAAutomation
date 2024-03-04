@@ -36,13 +36,23 @@ public class Abhibuspom {
 	@FindBy(xpath="//ul[@id='destination']") public List <WebElement> destination;
 	
 	*/
-	@FindBy(xpath="//input[@placeholder='From Station']") public WebElement from;
-	@FindBy(xpath="//li[@data-id='Hyderabad']") public WebElement enterfrom;
+	@FindBy(xpath="//input[@placeholder='From Station']") 
+	
+	private WebElement from;
+	
+	@FindBy(xpath="//li[@data-id='Hyderabad']") 
+	
+	private WebElement enterfrom;
 	
 	
-	@FindBy(xpath="//input[@placeholder='To Station']") public WebElement to;
+	@FindBy(xpath="//input[@placeholder='To Station']")
 	
-	@FindBy(xpath="//li[@data-id='Vijayawada']") public WebElement enterto;
+	private WebElement to;
+	
+	@FindBy(xpath="//li[@data-id='Vijayawada']") 
+	
+	private WebElement enterto;
+	
 	public void src() throws InterruptedException
 	{
 		

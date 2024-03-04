@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practiceclasses.Assertions">
+      <class name="com.javaprograms.SortingStrings">
         <methods>
-          <include name="assertions"/>
+          <include name="ReverseString"/>
         </methods>
-      </class> <!-- com.practiceclasses.Assertions -->
+      </class> <!-- com.javaprograms.SortingStrings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-30T14:50:35 IST" name="Default suite" finished-at="2024-01-30T14:50:35 IST" duration-ms="73">
+  <suite started-at="2024-02-23T10:08:21 IST" name="Default suite" finished-at="2024-02-23T10:08:21 IST" duration-ms="118">
     <groups>
     </groups>
-    <test started-at="2024-01-30T14:50:35 IST" name="Default test" finished-at="2024-01-30T14:50:35 IST" duration-ms="73">
+    <test started-at="2024-02-23T10:08:21 IST" name="Default test" finished-at="2024-02-23T10:08:21 IST" duration-ms="118">
       <class name="com.javaprograms.AllPrograms">
-        <test-method signature="Reversenum()[pri:0, instance:com.javaprograms.AllPrograms@644baf4a]" started-at="2024-01-30T14:50:35 IST" name="Reversenum" finished-at="2024-01-30T14:50:35 IST" duration-ms="12" status="PASS">
+        <test-method signature="Occurancewords()[pri:0, instance:com.javaprograms.AllPrograms@7526515b]" started-at="2024-02-23T10:08:21 IST" name="Occurancewords" finished-at="2024-02-23T10:08:21 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Reversenum -->
+        </test-method> <!-- Occurancewords -->
       </class> <!-- com.javaprograms.AllPrograms -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
