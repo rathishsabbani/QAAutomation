@@ -34,9 +34,7 @@ public class Amazonsite {
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 
 		WebElement ele = driver.findElement(By.xpath("//input[@aria-labelledby='Apple']"));
-		
-
-		jse.executeScript("arguments[0].click();", ele);
+		ele.click();
 
 	}
 

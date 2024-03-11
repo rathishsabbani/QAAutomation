@@ -59,7 +59,7 @@ public class Flipkartcart {
 					if (title.equals(driver.getTitle())) {
 
 						driver.findElement(By.xpath("//a[@class='_1fGeJ5 _2UVyXR _31hAvz']")).click();
-						driver.findElement(By.xpath("//*[name()='svg' and @class ='_1KOMV2']")).click();
+		//				driver.findElement(By.xpath("//*[name()='svg' and @class ='_1KOMV2']")).click();
 
 					}
 
