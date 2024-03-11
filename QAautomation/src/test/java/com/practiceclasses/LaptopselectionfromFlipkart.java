@@ -23,6 +23,7 @@ public class LaptopselectionfromFlipkart {
 		
 		Actions ac = new Actions(driver);
 		
+		
 		// click on the search bar and type "laptop" and press Enter button 
 		
 		WebElement fas = driver.findElement(By.xpath("//input[@title='Search for Products, Brands and More']"));
